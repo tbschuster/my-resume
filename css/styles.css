@@ -11,7 +11,7 @@ body {
 }
 
 body::after {
-  background: url("/images/valley.jpg");
+  background: url("/my-resume/images/valley.jpg");
   background-attachment: fixed;
   background-size: cover;
   content: "";
