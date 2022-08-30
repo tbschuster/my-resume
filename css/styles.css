@@ -79,7 +79,7 @@ i {
 /* =========== EXPERIENCE CLASSES =========== */
 
 .experience-container{
-  padding:130px 0 0;
+  padding: 100px 0 0;
 }
 
 .cd-container {
@@ -214,7 +214,7 @@ i {
 
 /* =========== EDUCATION CLASSES =========== */
 .education-container {
-  padding: 130px 0 0;
+  padding: 130px 0 20px;
 }
 
 .education-details >li{
@@ -261,7 +261,7 @@ i {
 
 /* =========== SKILLS CLASSES =========== */
 .skills-container {
-  padding: 130px 0 0;
+  padding: 100px 0 0;
 }
 
 .skills-container >.row{
@@ -271,17 +271,14 @@ i {
 /* =========== LANGUAGES CLASSES =========== */
 
 .languages-container{
-  padding: 130px 0 0;
+  padding: 100px 0 0;
 }
-
-/* .languages-container >.row{
-  margin: 0 0 0 5%
-} */
 
 /* =========== CONTACT ME CLASSES =========== */
 
 .contact-container{
   padding: 130px 0 0;
+  font-size: 1rem;
 }
 
 .btn{
@@ -296,18 +293,17 @@ i {
 /* =========== BOTTOM SECTION CLASSES =========== */
 .bottom-container {
   background-color: #0e7077;
-  margin: 130px auto 0 auto;
-  padding: 25px 0 25px 0;
+  margin: 130px 0 0 0;
+  padding: 25px 0 20px 0;
 }
 
 .footer-link{
-  color: aliceblue;
+  color: rgb(211, 219, 226);
   text-decoration: none;
-  padding: 5px;
 }
 
 .footer-link:hover{
-  color: rgb(151, 151, 151);
+  color: rgb(224, 232, 239);
 }
 
 /* ================================= IDS ================================= */
@@ -351,12 +347,24 @@ i {
 
 /* =========== EDUCATION IDS =========== */
 
+/* =========== CONTACT ME IDS =========== */
+#contact-text{
+  margin: 50px 30px;
+  text-align: center;
+}
+
 /* =========== BOTTOM SECTION IDS =========== */
 #copyright-text {
-  color: rgb(151, 151, 151);
+  color: #A1BEC0;
   font-size: 0.75rem;
-  padding: 20px 0 0;
 }
+
+#credits {
+  font-size: 0.75rem;
+  color: #A1BEC0;
+  margin: 20px 0 0 0;
+}
+
 
 /* hr {
   border: none;
