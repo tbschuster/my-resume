@@ -57,7 +57,7 @@ i {
 /* =========== ABOUT ME CLASSES =========== */
 
 .about-me-container {
-  padding: 160px 0 0;
+  padding: 130px 0 0;
   margin: 0;
 }
 
@@ -323,7 +323,12 @@ i {
 
 /* =========== ABOUT ME IDS =========== */
 #greeting-header{
-  padding: 15px;
+  padding: 15px 15px 0;
+}
+
+#greeting-name{
+  padding: 0 15px 15px;
+  font-size: 3rem;
 }
 
 /* =========== EXPERIENCE IDS =========== */
