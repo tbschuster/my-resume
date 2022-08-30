@@ -7,16 +7,20 @@
   <title>Beatrice Schuster</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
-  <script src="https://kit.fontawesome.com/9ace5b4365.js" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="css/styles.css">
-  <link rel="favicon" href="images/favicon.ico?v=2">
+  <script src="https://kit.fontawesome.com/9ace5b4365.js" crossorigin="anonymous"></script>  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="script.js"></script>
+  <link rel="stylesheet" href="../css/styles.css">
+  <link rel="favicon" href="../images/favicon.ico?v=2">
   <link rel="preconnect" href="https://fonts.googleapis.com"> 
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Source+Sans+Pro:wght@200;300;400&display=swap" rel="stylesheet">
+
 </head>
 
 <!-- <body background="images/valley.jpg" bgproperties="fixed" background-image="width:100%; max-height:100vh;"> -->
   <body>
+
     <section id="title">
     <!-- Nav Bar -->
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="background-color: #0e7077; padding: 0 0 0 15px;">
@@ -61,20 +65,20 @@
   <!-- About me section -->
   <div class="about-me-container" id="about-me">
     <div class="profile">
-      <img class="profile-img" src="images/profile.png" alt="profile-img">
-      <h2 id="greeting-header">Hi,</h2>
-      <h2 id="greeting-name">I'm Beatrice.</h2>
-      <p class="intro-text col-lg-5 col-md-12 col-sm-11">I am an ambitious Biomedical Engineering graduate from King’s College London, passionate about technology and programming.</p>
+      <img class="profile-img img-fluid fadeIn" src="images/profile.png" alt="profile-img">
+      <h2 id="greeting-header" class="fadeInLeft">Hi,</h2>
+      <h2 id="greeting-name" class="fadeInRight">I'm Beatrice.</h2>
+      <p class="intro-text col-lg-5 col-md-12 col-sm-11 fadeInUp">I am an ambitious Biomedical Engineering graduate from King’s College London, passionate about technology and programming.</p>
     </div>
   </div>
   
   <!-- Experience section -->
   <div class="experience-container" id="experience">
-    <h2 style="margin: 0 0 25px;">Experience</h2>
+    <h2 style="margin: 0 0 25px;" class="animated">Experience</h2>
     <section id="cd-timeline" class="cd-container">
       <div class="cd-timeline-block">
         <div class="cd-timeline-img"></div>
-        <div class="cd-timeline-content">
+        <div class="animated cd-timeline-content">
           <h3>M.Eng. Research Project</h3>
           <div class="timeline-content-info">
             <span class="timeline-content-info-title">
@@ -101,7 +105,7 @@
       </div>
       <div class="cd-timeline-block">
         <div class="cd-timeline-img"></div>
-        <div class="cd-timeline-content">
+        <div class="cd-timeline-content animated">
           <h3>M.Eng. Group Research Project</h3>
           <div class="timeline-content-info">
             <span class="timeline-content-info-title">
@@ -129,7 +133,7 @@
       </div>
       <div class="cd-timeline-block">
         <div class="cd-timeline-img"></div>
-        <div class="cd-timeline-content">
+        <div class="cd-timeline-content animated">
           <h3>B.Eng. Research Project</h3>
           <div class="timeline-content-info">
             <span class="timeline-content-info-title">
