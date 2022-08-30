@@ -1,13 +1,27 @@
 /* ================================= MAIN ================================= */
 body {
+
   margin: 0;
   text-align: center;
   font-family: 'SourceSansPro', sans-serif;
   font-weight: 300;
   font-size: 0.875rem;
   background-color: #d4fbf4;
-
   line-height: 1.5;
+}
+
+body::after {
+  background: url("/images/valley.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  content: "";
+  opacity: 0.9;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: -1;   
 }
 
 h1 {
@@ -39,6 +53,7 @@ i {
 /* ================================= CLASSES ================================= */
 
 /* =========== TOP SECTION CLASSES =========== */
+
 .homepage-top-container {
   position: relative;
   font-size: 0;
@@ -294,7 +309,7 @@ i {
 .bottom-container {
   background-color: #0e7077;
   margin: 130px 0 0 0;
-  padding: 25px 0 20px 0;
+  padding: 25px 0 0 0;
 }
 
 .footer-link{
@@ -364,19 +379,6 @@ i {
   color: #A1BEC0;
   margin: 20px 0 0 0;
 }
-
-
-/* hr {
-  border: none;
-  background: black;
-  background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 350, from(#16a7b3), to(#5dcfd8));
-  border-radius: 50%;
-  color: green;
-  display: block;
-  height: 5px;
-  margin: 100px auto;
-  width: 50%;
-} */
 
 
 /* ================================= RESPONSIVENESS ================================= */
