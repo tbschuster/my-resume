@@ -152,7 +152,7 @@ $(function(){
     // ABOUT ME
     $("#greeting-header").text("Salut,")
     $("#greeting-name").text("Je suis Beatrice.")
-    $(".intro-text").text("Je suis diplômée d'un Master en Ingénierie Biomédicale de King's College London, ambitieuse et passionnée par la technologie et la programmation.")
+    $(".intro-text").text("Je suis une ingénieure diplômée de King's College London, ambitieuse et passionnée par la technologie et la programmation.")
 
     // EXPERIENCE
     $(".experience-container h2:nth-of-type(1)").text("Expérience")
@@ -206,7 +206,7 @@ $(function(){
     $(".education-container .education-row:nth-of-type(1) .edu-column-2 .education-details li:nth-child(1) .edu-description-2:nth-of-type(2)").text("Mention Très Bien") 
     $(".education-container .education-row:nth-of-type(1) .edu-column-2 .education-details li:nth-child(2) .edu-description-1:nth-of-type(1)").text("Parcours: ") 
     $(".education-container .education-row:nth-of-type(1) .edu-column-2 .education-details li:nth-child(2) .edu-description-2:nth-of-type(2)").text("Apprentissage Automatique/Programmation")
-    $(".education-container .education-row:nth-of-type(1) .edu-column-2 .education-details li:nth-child(3) .edu-description-1:nth-of-type(1)").text("Cours Rélevants: ") 
+    $(".education-container .education-row:nth-of-type(1) .edu-column-2 .education-details li:nth-child(3) .edu-description-1:nth-of-type(1)").text("Cours Pertinents: ") 
     $(".education-container .education-row:nth-of-type(1) .edu-column-2 .education-details li:nth-child(3) .edu-description-2:nth-of-type(2)").text("Programmation, Programmation Orientée Objet, Apprentissage Automatique Avancé, Mathématiques, Statistique Informatique,  Méthodes Informatiques.")
     $(".education-container .education-row:nth-of-type(1) .edu-column-2 .education-details li:nth-child(4)").text("Membre de l'Association d'Ingénierie et de l'Association de Robotique") 
   

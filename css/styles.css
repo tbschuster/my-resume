@@ -2,7 +2,8 @@
 .language {
   position: relative;
   width: 90px;
-  margin: 5px 40px 0 20px;
+  margin: 0px 40px 0 20px;
+  padding-top: 6px;
 }
 
 .language-selected {
