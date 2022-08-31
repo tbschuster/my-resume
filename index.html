@@ -13,8 +13,6 @@
   <link rel="preconnect" href="https://fonts.googleapis.com"> 
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Source+Sans+Pro:wght@200;300;400&display=swap" rel="stylesheet">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-  <!-- <script type="text/javascript" src="js/script.js"></script> -->
 </head>
 
 <body>
@@ -45,11 +43,20 @@
               <li class="nav-item">
                 <a class="nav-link js-scroll-trigger" href="#contact-me">Contact</a>
               </li>
+
+              <div class="language">
+                <div class="language-selected" style="font-weight: bold;">
+                 EN
+                </div>
+                <ul>
+                  <li><a href="#en" class="nav-link en js-scroll-trigger">English</a></li>
+                  <li><a href="#fr" class="nav-link fr js-scroll-trigger">French</a></li>
+                </ul>
+              </div>
           </ul>
       </div>
     </nav>
   </section>
-
   <!-- Intro section -->
   <!-- <div class="homepage-top-container">
     <img src="images/5330558.jpg" alt="valley-img" style="width: 100%; max-height: 100vh;">
@@ -84,7 +91,7 @@
             </span>
             <span class="timeline-content-info-date">
               <i class="fa fa-calendar-o" aria-hidden="true"></i>
-              Oct. 2021 - Jun. 2022
+              Oct. 2021 - June 2022
             </span>
           </div>
           <ul class="job-description-list">
@@ -111,14 +118,14 @@
             </span>
             <span class="timeline-content-info-date">
               <i class="fa fa-calendar-o" aria-hidden="true"></i>
-              Oct. 2021 - Jun. 2022
+              Oct. 2021 - June 2022
             </span>
           </div>
           <ul class="job-description-list">
             <li>Investigation of preconception care services and technologies available worldwide using the 5D model of medical technology development.</li>
             <li>Advertising and public engagement activities to gather data from the public for a preconception care app, to address the lack of available services in the UK. Creation of mobile app wireframe.</li>
             <li>Group master’s thesis: “PrecTech: A Global Review of Preconception Care Guidelines and Services and a Proposal for a Personalised Preconception Care Mobile Application”.</li>
-            <li>Currently under the process of publishing a scientific research paper & planning the app development.</li>
+            <li>Currently under the process of publishing a scientific research paper.</li>
           </ul>
           <ul class="content-skills">
             <li class="job-skills">Public Engagement</li>
@@ -139,7 +146,7 @@
             </span>
             <span class="timeline-content-info-date">
               <i class="fa fa-calendar-o" aria-hidden="true"></i>
-              Oct. 2020 - Jun. 2021
+              Oct. 2020 - June 2021
             </span>
           </div>
           <ul class="job-description-list">
@@ -169,15 +176,15 @@
       <div class="edu-column-1">
         <h3><strong>King's College London</strong></h3>
         <p class="education-period">2018 - 2022</p>
-        <p class="education-location"><i class="fa-solid fa-location-dot"></i>London, UK</p>
+        <p class="education-location"><i class="fa-solid fa-location-dot"></i><span>London, UK</span></p>
       </div>
       <div class="edu-column-2">
-        <h3 class="degree"><strong>M.Eng. (Hons) Biomedical Engineering</strong></h3>
+        <h3 class="degree">M.Eng. (Hons) Biomedical Engineering</h3>
         <span class="education-details">
-          <li><strong>Final Classification:</strong> First  Class Honours</li>
-          <li><strong>Path:</strong> Machine Learning/Programming</li>
-          <li><strong>Relevant Modules:</strong> Computer Programming, Object-oriented Programming, Advanced Machine Learning, Mathematics, Computational Statistics,  Computational Methods.</li>
-          <li>Member of the Engineering Society & Robotics Society</li>
+          <li><span class="edu-description-1">Final Classification:</span><span class="edu-description-2"> First  Class Honours</span></li>
+          <li><span class="edu-description-1">Path:</span><span class="edu-description-2"> Machine Learning/Programming</span></li>
+          <li><span class="edu-description-1">Relevant Modules:</span><span class="edu-description-2"> Computer Programming, Object-oriented Programming, Advanced Machine Learning, Mathematics, Computational Statistics,  Computational Methods.</li>
+          <li>Member of the Engineering Society & Robotics Society</span></li>
         </span>
       </div>
     </div>
@@ -185,13 +192,13 @@
       <div class="edu-column-1">
         <h3><strong>Lycée Léon Blum</strong></h3>
         <p class="education-period">2014 - 2017</p>
-        <p class="education-location"><i class="fa-solid fa-location-dot"></i>Créteil, France</p>
+        <p class="education-location"><i class="fa-solid fa-location-dot"></i><span>Créteil, France</span></p>
       </div>
       <div class="edu-column-2">
-        <h3 class="degree"><strong>French Scientific Baccalaureate</strong></h3>
+        <h3 class="degree">French Scientific Baccalaureate</h3>
         <span class="education-details">
-          <li><strong>Final Grade:</strong> 17/20 (First Class Honours)</li>
-          <li><strong>Path:</strong> Physics and Chemistry</li>
+          <li><span class="edu-description-1">Final Classification:</span><span class="edu-description-2"> First Class Honours (17/20)</span></li>
+          <li><span class="edu-description-1">Path:</span><span class="edu-description-2"> Physics and Chemistry</span></li>
         </span>
       </div>
     </div>
@@ -274,97 +281,18 @@
   <div class="contact-container" id="contact-me">
     <h2 class="animated">Contact</h2>
     <p class="animated" id="contact-text">I'm currently looking for a job opportunity that would allow me to show proof of my skills and learn more.</p>
-    <a class="btn btn-dark animated" href="mailto:tbschuster1@gmail.com" role="button"><i class="fa-solid fa-envelope"></i> Contact me!</a>
+    <a class="btn btn-dark animated" href="mailto:tbschuster1@gmail.com" role="button"><i class="fa-solid fa-envelope"></i> <span>Contact me!</span></a>
   </div>
   <!--  -->
   <!-- Footer section -->
   <div class="bottom-container">
     <a class="footer-link" href="https://www.linkedin.com/in/beatrice-schuster-4075b6162/" style="margin: 0 30px 0 0"><i class="fa fa-linkedin-square" aria-hidden="true"></i>LinkedIn</a>
     <a class="footer-link" href="https://github.com/tbschuster"><i class="fa fa-github" aria-hidden="true"></i>GitHub</a>    
-    <p id="credits">Icons by <a class="footer-link" href="https://www.flaticon.com/authors/freepik">Freepik</a></p>
+    <p id="credits"><span>Icons by</span> <a class="footer-link" href="https://www.flaticon.com/authors/freepik">Freepik</a></p>
     <p id="copyright-text">© 2022 Beatrice Schuster.</p>
   </div>
 
-
-  <script type="text/javascript">
-    const observer = new IntersectionObserver(entries => {
-      entries.forEach(entry => {
-        if(entry.isIntersecting){
-          document.querySelectorAll(".animated")[0].classList.add("fadeIn")
-          document.querySelectorAll(".animated")[1].classList.add("fadeInUp")
-        }
-      })
-    })
-    observer.observe(document.querySelector(".cd-container"))
-
-    const observer2 = new IntersectionObserver(entries => {
-      entries.forEach(entry => {
-        if(entry.isIntersecting){
-          document.querySelectorAll(".animated")[2].classList.add("fadeInUp")
-        }
-      })
-    })
-    observer2.observe(document.querySelector("#exp-block-2"))
-
-    const observer3 = new IntersectionObserver(entries => {
-      entries.forEach(entry => {
-        if(entry.isIntersecting){
-          document.querySelectorAll(".animated")[3].classList.add("fadeInUp")
-        }
-      })
-    })
-    observer3.observe(document.querySelector("#exp-block-3"))
-
-    const observer4 = new IntersectionObserver(entries => {
-      entries.forEach(entry => {
-        if(entry.isIntersecting){
-          document.querySelectorAll(".animated")[4].classList.add("fadeInFast")
-          document.querySelectorAll(".animated")[5].classList.add("fadeInUpFast")
-          document.querySelectorAll(".animated")[6].classList.add("fadeInUpFast")
-        }
-      })
-    })
-    observer4.observe(document.querySelector("#education"))
-
-    const observer5 = new IntersectionObserver(entries => {
-      entries.forEach(entry => {
-        if(entry.isIntersecting){
-          document.querySelectorAll(".animated")[7].classList.add("fadeInFast")
-          document.querySelectorAll(".animated")[8].classList.add("fadeInUpFast")
-        }
-      })
-    })
-    observer5.observe(document.querySelector("#skills"))
-
-    const observer6 = new IntersectionObserver(entries => {
-      entries.forEach(entry => {
-        if(entry.isIntersecting){
-          document.querySelectorAll(".animated")[9].classList.add("fadeInFast")
-          document.querySelectorAll(".animated")[10].classList.add("fadeInLeftFast")
-          document.querySelectorAll(".animated")[11].classList.add("fadeInLeftFast")
-          document.querySelectorAll(".animated")[12].classList.add("fadeInRightFast")
-          document.querySelectorAll(".animated")[13].classList.add("fadeInRightFast")
-        }
-      })
-    })
-    observer6.observe(document.querySelector("#languages"))
-
-    const observer7 = new IntersectionObserver(entries => {
-      entries.forEach(entry => {
-        if(entry.isIntersecting){
-          document.querySelectorAll(".animated")[14].classList.add("fadeInFast")
-          document.querySelectorAll(".animated")[15].classList.add("fadeInFast")
-          document.querySelectorAll(".animated")[16].classList.add("fadeInUpFast")
-        }
-      })
-    })
-    observer7.observe(document.querySelector("#contact-me"))
-
-    $('.js-scroll-trigger').click(function(){
-      $('.navbar-collapse').collapse('hide');
-    });
-  </script>
-
-
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script type="text/javascript" src="js/script.js"></script>
 </body>
 </html>
