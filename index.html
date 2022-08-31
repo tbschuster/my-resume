@@ -13,14 +13,12 @@
   <link rel="preconnect" href="https://fonts.googleapis.com"> 
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Source+Sans+Pro:wght@200;300;400&display=swap" rel="stylesheet">
-  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-  <script type="text/javascript" src="script.js"></script> -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <!-- <script type="text/javascript" src="js/script.js"></script> -->
 </head>
 
-<!-- <body background="images/valley.jpg" bgproperties="fixed" background-image="width:100%; max-height:100vh;"> -->
-  <body>
-
-    <section id="title">
+<body>
+  <section id="title">
     <!-- Nav Bar -->
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="background-color: #0e7077; padding: 0 0 0 15px;">
       <a class="navbar-brand">Beatrice Schuster</a>
@@ -30,22 +28,22 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto">
               <li class="nav-item">
-                  <a class="nav-link" href="#about-me">About</a>
+                  <a class="nav-link js-scroll-trigger" href="#about-me">About</a>
               </li>
               <li class="nav-item">
-                  <a class="nav-link" href="#experience">Experience</a>
+                  <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
               </li>
               <li class="nav-item">
-                  <a class="nav-link" href="#education">Education</a>
+                  <a class="nav-link js-scroll-trigger" href="#education">Education</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#skills">Skills</a>
+                <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#languages">Languages</a>
+                <a class="nav-link js-scroll-trigger" href="#languages">Languages</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#contact-me">Contact</a>
+                <a class="nav-link js-scroll-trigger" href="#contact-me">Contact</a>
               </li>
           </ul>
       </div>
@@ -67,7 +65,7 @@
       <img class="profile-img img-fluid fadeIn" src="images/profile.png" alt="profile-img">
       <h2 id="greeting-header" class="fadeInLeft">Hi,</h2>
       <h2 id="greeting-name" class="fadeInRight">I'm Beatrice.</h2>
-      <p class="intro-text col-lg-5 col-md-12 col-sm-11 fadeInUp">I am an ambitious Biomedical Engineering graduate from King’s College London, passionate about technology and programming.</p>
+      <p class="intro-text col-lg-5 col-md-12 col-sm-11 fadeInUp">I'm an ambitious Biomedical Engineering graduate from King’s College London, passionate about technology and programming.</p>
     </div>
   </div>
   
@@ -165,9 +163,9 @@
   </div>
 
   <!-- Education section -->
-  <div class="education-container animated" id="education">
-    <h2 style="margin: 0 0 25px;">Education</h2>
-    <div class="education-row">
+  <div class="education-container" id="education">
+    <h2 style="margin: 0 0 25px;" class="animated">Education</h2>
+    <div class="education-row animated">
       <div class="edu-column-1">
         <h3><strong>King's College London</strong></h3>
         <p class="education-period">2018 - 2022</p>
@@ -183,7 +181,7 @@
         </span>
       </div>
     </div>
-    <div class="education-row">
+    <div class="education-row animated">
       <div class="edu-column-1">
         <h3><strong>Lycée Léon Blum</strong></h3>
         <p class="education-period">2014 - 2017</p>
@@ -200,9 +198,9 @@
   </div>
 
   <!-- Skills section -->
-  <div class="skills-container animated" id="skills">
-    <h2 style="margin: 0 0 25px;">Skills</h2>
-    <div class="row">
+  <div class="skills-container" id="skills">
+    <h2 style="margin: 0 0 25px;" class="animated">Skills</h2>
+    <div class="row animated">
       <div class="col-lg-3 col-md-6 col-sm-6 col-6">
         <!-- programming languages -->
         <li>Python</li>
@@ -250,22 +248,22 @@
   </div>
 
   <!-- Languages section -->
-  <div class="languages-container text-center animated" id="languages">
-    <h2 style="margin: 0 0 25px;">Languages</h2>
+  <div class="languages-container text-center" id="languages">
+    <h2 style="margin: 0 0 25px;" class="animated">Languages</h2>
     <div class="row" style="max-width:100%">
-      <div class="col-lg-3 col-md-6 col-sm-6 col-6">
+      <div class="col-lg-3 col-md-6 col-sm-6 col-6 animated">
         <img src="images/united-kingdom.png" alt="UK-flag" width="25%">
         <p>English</p>
       </div>
-      <div class="col-lg-3 col-md-6 col-sm-6 col-6">
+      <div class="col-lg-3 col-md-6 col-sm-6 col-6 animated">
         <img src="images/portugal.png" alt="Portugal-flag" width="25%">
         <p>Portuguese</p>
       </div>
-      <div class="col-lg-3 col-md-6 col-sm-6 col-6">
+      <div class="col-lg-3 col-md-6 col-sm-6 col-6 animated">
         <img src="images/france.png" alt="France-flag" width="25%">
         <p>French</p>
       </div>
-      <div class="col-lg-3 col-md-6 col-sm-6 col-6">
+      <div class="col-lg-3 col-md-6 col-sm-6 col-6 animated">
         <img src="images/romania.png" alt="Romania-flag" width="25%">
         <p>Romanian</p>
       </div>
@@ -273,12 +271,12 @@
   </div>
 
   <!-- Contact section -->
-  <div class="contact-container animated" id="contact-me">
-    <h2>Contact</h2>
-    <p id="contact-text">I am currently looking for a job where I can show proof of my skills and expand my knowledge.</p>
-    <a class="btn btn-dark" href="mailto:tbschuster1@gmail.com" role="button">Contact me!</a>
+  <div class="contact-container" id="contact-me">
+    <h2 class="animated">Contact</h2>
+    <p class="animated" id="contact-text">I'm currently looking for a job opportunity that would allow me to show proof of my skills and learn more.</p>
+    <a class="btn btn-dark animated" href="mailto:tbschuster1@gmail.com" role="button"><i class="fa-solid fa-envelope"></i> Contact me!</a>
   </div>
-
+  <!--  -->
   <!-- Footer section -->
   <div class="bottom-container">
     <a class="footer-link" href="https://www.linkedin.com/in/beatrice-schuster-4075b6162/" style="margin: 0 30px 0 0"><i class="fa fa-linkedin-square" aria-hidden="true"></i>LinkedIn</a>
@@ -320,7 +318,9 @@
     const observer4 = new IntersectionObserver(entries => {
       entries.forEach(entry => {
         if(entry.isIntersecting){
-          document.querySelectorAll(".animated")[4].classList.add("fadeIn")
+          document.querySelectorAll(".animated")[4].classList.add("fadeInFast")
+          document.querySelectorAll(".animated")[5].classList.add("fadeInUpFast")
+          document.querySelectorAll(".animated")[6].classList.add("fadeInUpFast")
         }
       })
     })
@@ -329,7 +329,8 @@
     const observer5 = new IntersectionObserver(entries => {
       entries.forEach(entry => {
         if(entry.isIntersecting){
-          document.querySelectorAll(".animated")[5].classList.add("fadeIn")
+          document.querySelectorAll(".animated")[7].classList.add("fadeInFast")
+          document.querySelectorAll(".animated")[8].classList.add("fadeInUpFast")
         }
       })
     })
@@ -338,7 +339,11 @@
     const observer6 = new IntersectionObserver(entries => {
       entries.forEach(entry => {
         if(entry.isIntersecting){
-          document.querySelectorAll(".animated")[6].classList.add("fadeIn")
+          document.querySelectorAll(".animated")[9].classList.add("fadeInFast")
+          document.querySelectorAll(".animated")[10].classList.add("fadeInLeftFast")
+          document.querySelectorAll(".animated")[11].classList.add("fadeInLeftFast")
+          document.querySelectorAll(".animated")[12].classList.add("fadeInRightFast")
+          document.querySelectorAll(".animated")[13].classList.add("fadeInRightFast")
         }
       })
     })
@@ -347,16 +352,19 @@
     const observer7 = new IntersectionObserver(entries => {
       entries.forEach(entry => {
         if(entry.isIntersecting){
-          document.querySelectorAll(".animated")[7].classList.add("fadeIn")
+          document.querySelectorAll(".animated")[14].classList.add("fadeInFast")
+          document.querySelectorAll(".animated")[15].classList.add("fadeInFast")
+          document.querySelectorAll(".animated")[16].classList.add("fadeInUpFast")
         }
       })
     })
     observer7.observe(document.querySelector("#contact-me"))
 
+    $('.js-scroll-trigger').click(function(){
+      $('.navbar-collapse').collapse('hide');
+    });
   </script>
 
-  <!-- document.querySelectorAll(".animated")[2].classList.add("fadeInRight")
-  document.querySelectorAll(".animated")[3].classList.add("fadeInRight")
-  document.querySelectorAll(".animated")[3].classList.add("fadeInRight") -->
+
 </body>
 </html>

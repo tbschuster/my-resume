@@ -371,6 +371,8 @@ i {
 #copyright-text {
   color: #A1BEC0;
   font-size: 0.75rem;
+  margin: 0;
+  padding: 0 0 5px 0;
 }
 
 #credits {
@@ -385,36 +387,9 @@ i {
 
 /* FADE IN */
 .fadeIn {
-  -webkit-animation: fadeIn 2s both;
-  -moz-animation: fadeIn 2s both;
-  -o-animation: fadeIn 2s both;
   animation: fadeIn 2s both;
 }
 
-@-webkit-keyframes fadeIn {
- 0% {
-  opacity: 0;
- }
- 100% {
-  opacity: 1;
- }
-}
-@-moz-keyframes fadeIn {
-  0% {
-    opacity: 0;
-   }
-   100% {
-    opacity: 1;
-   }
-}
-@-o-keyframes fadeIn {
-  0% {
-    opacity: 0;
-   }
-   100% {
-    opacity: 1;
-   }
-}
 @keyframes fadeIn {
   0% {
     opacity: 0;
@@ -426,42 +401,9 @@ i {
 
 /* FADE IN FROM THE LEFT */
 .fadeInLeft {
-  -webkit-animation: fadeInLeft 2s both;
-  -moz-animation: fadeInLeft 2s both;
-  -o-animation: fadeInLeft 2s both;
   animation: fadeInLeft 2s both;
 }
 
-@-webkit-keyframes fadeInLeft {
- 0% {
-  opacity: 0;
-  -webkit-transform: translateX(-50px);
- }
- 100% {
-  opacity: 1;
-  -webkit-transform: translateX(0);
- }
-}
-@-moz-keyframes fadeInLeft {
-  0% {
-    opacity: 0;
-    -moz-transform: translateX(-50px);
-   }
-   100% {
-    opacity: 1;
-    -moz-transform: translateX(0);
-   }
-}
-@-o-keyframes fadeInLeft {
-  0% {
-    opacity: 0;
-    -o-transform: translateX(-50px);
-   }
-   100% {
-    opacity: 1;
-    -o-transform: translateX(0);
-   }
-}
 @keyframes fadeInLeft {
   0% {
     opacity: 0;
@@ -475,46 +417,13 @@ i {
 
 /* FADE IN FROM THE RIGHT */
 .fadeInRight {
-  -webkit-animation: fadeInRight 2s both;
-  -moz-animation: fadeInRight 2s both;
-  -o-animation: fadeInRight 2s both;
   animation: fadeInRight 2s both;
 }
 
-@-webkit-keyframes fadeInRight {
- 0% {
-  opacity: 0;
-  -webkit-transform: translateX(100px);
- }
- 100% {
-  opacity: 1;
-  -webkit-transform: translateX(0);
- }
-}
-@-moz-keyframes fadeInRight {
-  0% {
-    opacity: 0;
-    -moz-transform: translateX(100px);
-   }
-   100% {
-    opacity: 1;
-    -moz-transform: translateX(0);
-   }
-}
-@-o-keyframes fadeInRight {
-  0% {
-    opacity: 0;
-    -o-transform: translateX(100px);
-   }
-   100% {
-    opacity: 1;
-    -o-transform: translateX(0);
-   }
-}
 @keyframes fadeInRight {
   0% {
     opacity: 0;
-    transform: translateX(100px);
+    transform: translateX(50px);
    }
    100% {
     opacity: 1;
@@ -524,42 +433,9 @@ i {
 
 /* FADE IN FROM THE BOTTOM */
 .fadeInUp {
-  -webkit-animation: fadeInUp 2s both;
-  -moz-animation: fadeInUp 2s both;
-  -o-animation: fadeInUp 2s both;
   animation: fadeInUp 2s both;
 }
 
-@-webkit-keyframes fadeInUp {
- 0% {
-  opacity: 0;
-  -webkit-transform: translateY(100px);
- }
- 100% {
-  opacity: 1;
-  -webkit-transform: translateY(0);
- }
-}
-@-moz-keyframes fadeInUp {
-  0% {
-    opacity: 0;
-    -moz-transform: translateY(100px);
-   }
-   100% {
-    opacity: 1;
-    -moz-transform: translateY(0);
-   }
-}
-@-o-keyframes fadeInUp {
-  0% {
-    opacity: 0;
-    -o-transform: translateY(100px);
-   }
-   100% {
-    opacity: 1;
-    -o-transform: translateY(0);
-   }
-}
 @keyframes fadeInUp {
   0% {
     opacity: 0;
@@ -571,6 +447,62 @@ i {
    }
 }
 
+/* FADE IN/LEFT/RIGHT/UP QUICKER */
+
+.fadeInLeftFast {
+  animation: fadeInLeftFast 1.5s both;
+}
+.fadeInRightFast {
+  animation: fadeInRightFast 1.5s both;
+}
+.fadeInUpFast {
+  animation: fadeInUpFast 1.5s both;
+}
+.fadeInFast {
+  animation: fadeInFast 1.5s both;
+}
+
+@keyframes fadeInLeftFast {
+  0% {
+    opacity: 0;
+    transform: translateX(-25px);
+   }
+   100% {
+    opacity: 1;
+    transform: translateY(0);
+   }
+}
+
+@keyframes fadeInRightFast {
+  0% {
+    opacity: 0;
+    transform: translateX(25px);
+   }
+   100% {
+    opacity: 1;
+    transform: translateY(0);
+   }
+}
+
+@keyframes fadeInUpFast {
+  0% {
+    opacity: 0;
+    transform: translateY(15px);
+   }
+   100% {
+    opacity: 1;
+    transform: translateY(0);
+   }
+}
+
+@keyframes fadeInFast {
+  0% {
+    opacity: 0;
+   }
+   100% {
+    opacity: 1;
+   }
+}
 
 /* ================================= RESPONSIVENESS ================================= */
 
