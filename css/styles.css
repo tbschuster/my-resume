@@ -6,6 +6,12 @@
   padding-top: 6px;
 }
 
+@media only screen and (max-width: 991px) {
+  .language {
+    margin: 0 0 10px;
+  }
+}
+
 .language-selected {
   display: flex;
   align-items: center;
