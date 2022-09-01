@@ -99,9 +99,12 @@ body::after {
   z-index: -1;   
 }
 
-@media only screen and (max-width: 880px) {
+@media only screen and (max-width: 930px) {
   body::after {
-    opacity: 0.5;
+    background: url("../images/valleyimg-resized.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    opacity: 0.3;
   }
 }
 
