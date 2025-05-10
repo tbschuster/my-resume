@@ -5,10 +5,11 @@ $(function(){
     // NAVBAR
     $(".collapse ul:nth-child(1) li:nth-child(1) a").text("About")
     $(".collapse ul:nth-child(1) li:nth-child(2) a").text("Experience")
-    $(".collapse ul:nth-child(1) li:nth-child(3) a").text("Education")
-    $(".collapse ul:nth-child(1) li:nth-child(4) a").text("Skills")
-    $(".collapse ul:nth-child(1) li:nth-child(5) a").text("Languages")
-    $(".collapse ul:nth-child(1) li:nth-child(6) a").text("Contact")
+    $(".collapse ul:nth-child(1) li:nth-child(3) a").text("Projects")
+    $(".collapse ul:nth-child(1) li:nth-child(4) a").text("Education")
+    $(".collapse ul:nth-child(1) li:nth-child(5) a").text("Skills")
+    $(".collapse ul:nth-child(1) li:nth-child(7) a").text("Languages")
+    $(".collapse ul:nth-child(1) li:nth-child(8) a").text("Contact")
     $(".collapse ul:nth-child(2) li:nth-child(1) a").text("English")
     $(".collapse ul:nth-child(2) li:nth-child(2) a").text("French")
     $(".language-selected").text("EN");
@@ -18,49 +19,63 @@ $(function(){
     // ABOUT ME
     $("#greeting-header").text("Hi,")
     $("#greeting-name").text("I'm Beatrice.")
-    $(".intro-text").text("I'm an ambitious Biomedical Engineering graduate from King’s College London, passionate about technology and programming.")
+    $(".intro-text").text("I'm a Software Developer, passionate about technology and programming.")
 
-    // EXPERIENCE
+    // Experience
     $(".experience-container h2:nth-child(1)").text("Experience")
-    $(".cd-container .cd-timeline-block:nth-of-type(1) h3:nth-of-type(1)").text("M.Eng. Research Project")
-    $(".cd-container .cd-timeline-block:nth-of-type(2) h3:nth-of-type(1)").text("M.Eng. Group Research Project")
-    $(".cd-container .cd-timeline-block:nth-of-type(3) h3:nth-of-type(1)").text("B.Eng. Research Project")
+    $(".experience-container .cd-container .cd-timeline-block:nth-of-type(1) h3:nth-of-type(1)").text("Software Developer")
+    $(".experience-container .cd-container .cd-timeline-block:nth-of-type(2) h3:nth-of-type(1)").text("Software Developer")
 
-    $(".cd-container .cd-timeline-block:nth-of-type(1) .timeline-content-info:nth-of-type(1) .timeline-content-info-date").text("Oct. 2021 - June 2022")
-    $(".cd-container .cd-timeline-block:nth-of-type(2) .timeline-content-info:nth-of-type(1) .timeline-content-info-date").text("Oct. 2021 - June 2022")
-    $(".cd-container .cd-timeline-block:nth-of-type(3) .timeline-content-info:nth-of-type(1) .timeline-content-info-date").text("Oct. 2020 - June 2021")
+    $(".experience-container .cd-container .cd-timeline-block:nth-of-type(1) .timeline-content-info:nth-of-type(1) .timeline-content-info-date").text("Jan. 2025 - Present")
+    $(".experience-container .cd-container .cd-timeline-block:nth-of-type(2) .timeline-content-info:nth-of-type(1) .timeline-content-info-date").text("Oct. 2022 - Jan 2025")
 
-    $(".cd-container .cd-timeline-block:nth-of-type(1) .job-description-list li:nth-child(1)").text("Adaptation of the MRtrix3 software package to process diffusion MRI data that couldn’t be processed with older algorithms, for the purpose of interpreting white matter fibre orientation in the brain using a technique known as MSMT-CSD.")
-    $(".cd-container .cd-timeline-block:nth-of-type(1) .job-description-list li:nth-child(2)").text("Master’s thesis: “Analysis of multi-shell diffusion MRI data with arbitrary diffusion encoding”.")
+    $(".experience-container .cd-container .cd-timeline-block:nth-of-type(2) .job-description-list li:nth-child(1)").text("Took part in a task-force to clear the backlog and to ensure a client extended their contract with the company (70+ bugs fixed within the first year)")
+    $(".experience-container .cd-container .cd-timeline-block:nth-of-type(2) .job-description-list li:nth-child(2)").text("Worked to increase test execution speed by over 50%, and saved multiple hours of execution time per week")
+    $(".experience-container .cd-container .cd-timeline-block:nth-of-type(2) .job-description-list li:nth-child(3)").text("Leveraged problem-solving skills and knowledge of the company's product and codebase for feature/solution design and cost estimation processes")
+    $(".experience-container .cd-container .cd-timeline-block:nth-of-type(2) .job-description-list li:nth-child(4)").text("Developed and tested multiple features using the Tryton framework, Python and PostgreSQL, handling back-end and APIs (including B2B and B2C with GraphQL)")
+    $(".experience-container .cd-container .cd-timeline-block:nth-of-type(2) .job-description-list li:nth-child(5)").text("Mentored 1 junior back-end developer on the team and contributed to the recruitment and onboarding process")
 
-    $(".cd-container .cd-timeline-block:nth-of-type(2) .job-description-list li:nth-child(1)").text("Investigation of preconception care services and technologies available worldwide using the 5D model of medical technology development.")
-    $(".cd-container .cd-timeline-block:nth-of-type(2) .job-description-list li:nth-child(2)").text("Advertising and public engagement activities to gather data from the public for a preconception care app, to address the lack of available services in the UK. Creation of mobile app wireframe.")
-    $(".cd-container .cd-timeline-block:nth-of-type(2) .job-description-list li:nth-child(3)").text("Group master’s thesis: “PrecTech: A Global Review of Preconception Care Guidelines and Services and a Proposal for a Personalised Preconception Care Mobile Application”.")
-    $(".cd-container .cd-timeline-block:nth-of-type(2) .job-description-list li:nth-child(4)").text("Currently under the process of publishing a scientific research paper.")
+    // Projects
+    $(".projects-container h2:nth-child(1)").text("Projects")
+    $(".projects-container .cd-container .cd-timeline-block:nth-of-type(1) h3:nth-of-type(1)").text("M.Eng. Research Project")
+    $(".projects-container .cd-container .cd-timeline-block:nth-of-type(2) h3:nth-of-type(1)").text("M.Eng. Group Research Project")
+    $(".projects-container .cd-container .cd-timeline-block:nth-of-type(3) h3:nth-of-type(1)").text("B.Eng. Research Project")
 
-    $(".cd-container .cd-timeline-block:nth-of-type(3) .job-description-list li:nth-child(1)").text("Novel tool to solve a major issue in the neuroimaging community alongside medical imaging and deep learning experts.")
-    $(".cd-container .cd-timeline-block:nth-of-type(3) .job-description-list li:nth-child(2)").text("Development of a supervised deep neural network to detect and correct artefacts in paediatric brain diffusion MRI. Development of a self-supervised network capable of detecting and classifying artefacts.")
-    $(".cd-container .cd-timeline-block:nth-of-type(3) .job-description-list li:nth-child(3)").text("Bachelor’s thesis: “Self-supervised deep-learning for artefact detection in paediatric brain diffusion MRI”.")
+    $(".projects-container .cd-container .cd-timeline-block:nth-of-type(1) .timeline-content-info:nth-of-type(1) .timeline-content-info-date").text("Oct. 2021 - June 2022")
+    $(".projects-container .cd-container .cd-timeline-block:nth-of-type(2) .timeline-content-info:nth-of-type(1) .timeline-content-info-date").text("Oct. 2021 - June 2022")
+    $(".projects-container .cd-container .cd-timeline-block:nth-of-type(3) .timeline-content-info:nth-of-type(1) .timeline-content-info-date").text("Oct. 2020 - June 2021")
+
+    $(".projects-container .cd-container .cd-timeline-block:nth-of-type(1) .job-description-list li:nth-child(1)").text("Adaptation of the MRtrix3 software package to process diffusion MRI data that couldn't be processed with older algorithms, for the purpose of interpreting white matter fibre orientation in the brain using a technique known as MSMT-CSD.")
+    $(".projects-container .cd-container .cd-timeline-block:nth-of-type(1) .job-description-list li:nth-child(2)").text("Master's thesis: “Analysis of multi-shell diffusion MRI data with arbitrary diffusion encoding”.")
+
+    $(".projects-container .cd-container .cd-timeline-block:nth-of-type(2) .job-description-list li:nth-child(1)").text("Investigation of preconception care services and technologies available worldwide using the 5D model of medical technology development.")
+    $(".projects-container .cd-container .cd-timeline-block:nth-of-type(2) .job-description-list li:nth-child(2)").text("Advertising and public engagement activities to gather data from the public for a preconception care app, to address the lack of available services in the UK. Creation of mobile app wireframe.")
+    $(".projects-container .cd-container .cd-timeline-block:nth-of-type(2) .job-description-list li:nth-child(3)").text("Group master's thesis: “PrecTech: A Global Review of Preconception Care Guidelines and Services and a Proposal for a Personalised Preconception Care Mobile Application”.")
+    $(".projects-container .cd-container .cd-timeline-block:nth-of-type(2) .job-description-list li:nth-child(4)").text("Currently under the process of publishing a scientific research paper.")
+
+    $(".projects-container .cd-container .cd-timeline-block:nth-of-type(3) .job-description-list li:nth-child(1)").text("Novel tool to solve a major issue in the neuroimaging community alongside medical imaging and deep learning experts.")
+    $(".projects-container .cd-container .cd-timeline-block:nth-of-type(3) .job-description-list li:nth-child(2)").text("Development of a supervised deep neural network to detect and correct artefacts in paediatric brain diffusion MRI. Development of a self-supervised network capable of detecting and classifying artefacts.")
+    $(".projects-container .cd-container .cd-timeline-block:nth-of-type(3) .job-description-list li:nth-child(3)").text("Bachelor's thesis: “Self-supervised deep-learning for artefact detection in paediatric brain diffusion MRI”.")
   
-    $(".cd-container .cd-timeline-block:nth-of-type(1) .content-skills li:nth-child(1)").text("C++")
-    $(".cd-container .cd-timeline-block:nth-of-type(1) .content-skills li:nth-child(2)").text("Shell")
-    $(".cd-container .cd-timeline-block:nth-of-type(1) .content-skills li:nth-child(3)").text("MATLAB")
-    $(".cd-container .cd-timeline-block:nth-of-type(1) .content-skills li:nth-child(4)").text("Software Development")
-    $(".cd-container .cd-timeline-block:nth-of-type(1) .content-skills li:nth-child(5)").text("Object-oriented Programming")
+    $(".projects-container .cd-container .cd-timeline-block:nth-of-type(1) .content-skills li:nth-child(1)").text("C++")
+    $(".projects-container .cd-container .cd-timeline-block:nth-of-type(1) .content-skills li:nth-child(2)").text("Shell")
+    $(".projects-container .cd-container .cd-timeline-block:nth-of-type(1) .content-skills li:nth-child(3)").text("MATLAB")
+    $(".projects-container .cd-container .cd-timeline-block:nth-of-type(1) .content-skills li:nth-child(4)").text("Software Development")
+    $(".projects-container .cd-container .cd-timeline-block:nth-of-type(1) .content-skills li:nth-child(5)").text("Object-oriented Programming")
 
-    $(".cd-container .cd-timeline-block:nth-of-type(2) .content-skills li:nth-child(1)").text("Public Engagement")
-    $(".cd-container .cd-timeline-block:nth-of-type(2) .content-skills li:nth-child(2)").text("Medical Device Development")
-    $(".cd-container .cd-timeline-block:nth-of-type(2) .content-skills li:nth-child(3)").text("Mobile App Development")
-    $(".cd-container .cd-timeline-block:nth-of-type(2) .content-skills li:nth-child(4)").text("Wireframe Design")
+    $(".projects-container .cd-container .cd-timeline-block:nth-of-type(2) .content-skills li:nth-child(1)").text("Public Engagement")
+    $(".projects-container .cd-container .cd-timeline-block:nth-of-type(2) .content-skills li:nth-child(2)").text("Medical Device Development")
+    $(".projects-container .cd-container .cd-timeline-block:nth-of-type(2) .content-skills li:nth-child(3)").text("Mobile App Development")
+    $(".projects-container .cd-container .cd-timeline-block:nth-of-type(2) .content-skills li:nth-child(4)").text("Wireframe Design")
 
-    $(".cd-container .cd-timeline-block:nth-of-type(3) .content-skills li:nth-child(1)").text("Python")
-    $(".cd-container .cd-timeline-block:nth-of-type(3) .content-skills li:nth-child(2)").text("Machine Learning")
-    $(".cd-container .cd-timeline-block:nth-of-type(3) .content-skills li:nth-child(3)").text("Jupyter Notebooks")
-    $(".cd-container .cd-timeline-block:nth-of-type(3) .content-skills li:nth-child(4)").text("PyTorch")
-    $(".cd-container .cd-timeline-block:nth-of-type(3) .content-skills li:nth-child(5)").text("NumPy")
-    $(".cd-container .cd-timeline-block:nth-of-type(3) .content-skills li:nth-child(6)").text("CNNs")
-    $(".cd-container .cd-timeline-block:nth-of-type(3) .content-skills li:nth-child(7)").text("U-Nets")
-    $(".cd-container .cd-timeline-block:nth-of-type(3) .content-skills li:nth-child(8)").text("Autoencoders")
+    $(".projects-container .cd-container .cd-timeline-block:nth-of-type(3) .content-skills li:nth-child(1)").text("Python")
+    $(".projects-container .cd-container .cd-timeline-block:nth-of-type(3) .content-skills li:nth-child(2)").text("Machine Learning")
+    $(".projects-container .cd-container .cd-timeline-block:nth-of-type(3) .content-skills li:nth-child(3)").text("Jupyter Notebooks")
+    $(".projects-container .cd-container .cd-timeline-block:nth-of-type(3) .content-skills li:nth-child(4)").text("PyTorch")
+    $(".projects-container .cd-container .cd-timeline-block:nth-of-type(3) .content-skills li:nth-child(5)").text("NumPy")
+    $(".projects-container .cd-container .cd-timeline-block:nth-of-type(3) .content-skills li:nth-child(6)").text("CNNs")
+    $(".projects-container .cd-container .cd-timeline-block:nth-of-type(3) .content-skills li:nth-child(7)").text("U-Nets")
+    $(".projects-container .cd-container .cd-timeline-block:nth-of-type(3) .content-skills li:nth-child(8)").text("Autoencoders")
 
     // EDUCATION
     $(".education-container h2:nth-child(1)").text("Education")
@@ -129,7 +144,6 @@ $(function(){
     // FOOTER
     $(".bottom-container #credits span").text("Icons made by")
 
-
   })
 });
 
@@ -139,10 +153,11 @@ $(function(){
     // NAVBAR
     $(".collapse ul:nth-child(1) li:nth-child(1) a").text("Sur moi")
     $(".collapse ul:nth-child(1) li:nth-child(2) a").text("Expérience")
-    $(".collapse ul:nth-child(1) li:nth-child(3) a").text("Education")
-    $(".collapse ul:nth-child(1) li:nth-child(4) a").text("Compétences")
-    $(".collapse ul:nth-child(1) li:nth-child(5) a").text("Langues")
-    $(".collapse ul:nth-child(1) li:nth-child(6) a").text("Contact")
+    $(".collapse ul:nth-child(1) li:nth-child(3) a").text("Projets")
+    $(".collapse ul:nth-child(1) li:nth-child(4) a").text("Education")
+    $(".collapse ul:nth-child(1) li:nth-child(5) a").text("Compétences")
+    $(".collapse ul:nth-child(1) li:nth-child(6) a").text("Langues")
+    $(".collapse ul:nth-child(1) li:nth-child(7) a").text("Contact")
     $(".collapse ul:nth-child(2) li:nth-child(1) a").text("Anglais")
     $(".collapse ul:nth-child(2) li:nth-child(2) a").text("Français")
     $(".language-selected").text("FR");
@@ -150,51 +165,67 @@ $(function(){
     $(".language-selected").addClass("change-fr");
 
     // ABOUT ME
-    $("#greeting-header").text("Salut,")
+    $("#greeting-header").text("Bonjour,")
     $("#greeting-name").text("Je suis Beatrice.")
-    $(".intro-text").text("Je suis une ingénieure diplômée de King's College London, ambitieuse et passionnée par la technologie et la programmation.")
+    $(".intro-text").text("Je suis une développeuse informatique passionnée par la technologie et la programmation.")
 
-    // EXPERIENCE
-    $(".experience-container h2:nth-of-type(1)").text("Expérience")
-    $(".cd-container .cd-timeline-block:nth-of-type(1) h3:nth-of-type(1)").text("Master: Projet de Recherche")
-    $(".cd-container .cd-timeline-block:nth-of-type(2) h3:nth-of-type(1)").text("Master: Projet de Recherche en Groupe")
-    $(".cd-container .cd-timeline-block:nth-of-type(3) h3:nth-of-type(1)").text("Licence: Projet de Recherche")
+    // Experience
+    $(".experience-container h2:nth-child(1)").text("Expérience")
+    $(".experience-container .cd-container .cd-timeline-block:nth-of-type(1) h3:nth-of-type(1)").text("Développeuse Informatique")
+    $(".experience-container .cd-container .cd-timeline-block:nth-of-type(2) h3:nth-of-type(1)").text("Développeuse Informatique")
 
-    $(".cd-container .cd-timeline-block:nth-of-type(1) .timeline-content-info:nth-of-type(1) .timeline-content-info-date").text("Oct. 2021 - Juin 2022")
-    $(".cd-container .cd-timeline-block:nth-of-type(2) .timeline-content-info:nth-of-type(1) .timeline-content-info-date").text("Oct. 2021 - Juin 2022")
-    $(".cd-container .cd-timeline-block:nth-of-type(3) .timeline-content-info:nth-of-type(1) .timeline-content-info-date").text("Oct. 2020 - Juin 2021")
+    $(".experience-container .cd-container .cd-timeline-block:nth-of-type(1) .timeline-content-info:nth-of-type(1) .timeline-content-info-date").text("Jan. 2025 - Présent")
+    $(".experience-container .cd-container .cd-timeline-block:nth-of-type(2) .timeline-content-info:nth-of-type(1) .timeline-content-info-date").text("Oct. 2022 - Jan 2025")
 
-    $(".cd-container .cd-timeline-block:nth-of-type(1) .job-description-list li:nth-child(1)").text("Adaptation du logiciel open-source MRtrix3 software package pour le traitement de données issues de l'IRM de diffusion, qui ne pouvaient pas toutes être traitées avec la version ancienne de l'algorithme MSMT-CSD. Cet algorithme est souvant utilisé pour le traçage des fibres dans la matière blanche dans le cerveau.")
-    $(".cd-container .cd-timeline-block:nth-of-type(1) .job-description-list li:nth-child(2)").text("Thèse de master: Analyse de data issue de l’IRM de diffusion par encodage de diffusion arbitraire”.")
+    $(".experience-container .cd-container .cd-timeline-block:nth-of-type(2) .job-description-list li:nth-child(1)").text("Participation dans une task-force pour le nettoyage de la backlog afin d'assurer l'extension du contrat de l'un des clients de l'entreprise (70+ bugs corrigés pendant la première année)")
+    $(".experience-container .cd-container .cd-timeline-block:nth-of-type(2) .job-description-list li:nth-child(2)").text("Travail dans un chantier de réduction du temps d'exécution des tests: le temps d'exécution a été réduit de plus de 50%, ce qui économise plusieurs heures d'exécution par semaine")
+    $(".experience-container .cd-container .cd-timeline-block:nth-of-type(2) .job-description-list li:nth-child(3)").text("Mise en pratique des compétences de résolution de problèmes et de la connaissance sur le produit et la base de code pour le design et chiffrage de features/solutions")
+    $(".experience-container .cd-container .cd-timeline-block:nth-of-type(2) .job-description-list li:nth-child(4)").text("Développement et test de plusieurs features en utilisant le framework Tryton, Python et PosgreSQL, côté back-end et API (y compris B2B et B2C avec GraphQL)")
+    $(".experience-container .cd-container .cd-timeline-block:nth-of-type(2) .job-description-list li:nth-child(5)").text("Mentorat d'un développeur junior back-end de l'équipe et contribution au processus de recrutement et onboarding")
 
-    $(".cd-container .cd-timeline-block:nth-of-type(2) .job-description-list li:nth-child(1)").text("Investigation des services et technologies disponibles dans le monde pour la préconception, en utilisant le modèle 5D du développement de technologies médicales.")
-    $(".cd-container .cd-timeline-block:nth-of-type(2) .job-description-list li:nth-child(2)").text("Campagne publicitaire et activités d'engagement public pour la collecte de données concernant les connaissances du public sur la préconception, ainsi que pour établir les fonctionnalités les plus désirables et nécessaires dans une application mobile pour les soins préconception. Création du wireframe d'une application mobile idéale pour adresser le manque de services disponible dans le Royaume-Uni.")
-    $(".cd-container .cd-timeline-block:nth-of-type(2) .job-description-list li:nth-child(3)").text("Thèse de master de groupe: “PrecTech: Une étude globale des directives et services disponibles pour les soins préconception, et proposition d’une application mobile personnalisée pour les soins préconception“.")
-    $(".cd-container .cd-timeline-block:nth-of-type(2) .job-description-list li:nth-child(4)").text("La publication d'un article scientifique est actuellement en cours.")
 
-    $(".cd-container .cd-timeline-block:nth-of-type(3) .job-description-list li:nth-child(1)").text("Développement d’un nouvel outil pour résoudre un problème majeur dans la communauté de la neuroimagerie, avec des experts en apprentissage profond et en imagerie médicale.")
-    $(".cd-container .cd-timeline-block:nth-of-type(3) .job-description-list li:nth-child(2)").text("Développement d’un réseau de neurones supervisé pour la détection et correction d’artefacts dans des images cérébrales pédiatriques issues de l’IRM de diffusion. Développement d’un réseau auto-supervisé capable de détecter et classer les artefacts.")
-    $(".cd-container .cd-timeline-block:nth-of-type(3) .job-description-list li:nth-child(3)").text("Thèse de licence: “Apprentissage profond auto-supervisé pour la détection d’artefacts dans l’IRM cérébrale pédiatrique“.")
 
-    $(".cd-container .cd-timeline-block:nth-of-type(1) .content-skills li:nth-child(1)").text("C++")
-    $(".cd-container .cd-timeline-block:nth-of-type(1) .content-skills li:nth-child(2)").text("Shell")
-    $(".cd-container .cd-timeline-block:nth-of-type(1) .content-skills li:nth-child(3)").text("MATLAB")
-    $(".cd-container .cd-timeline-block:nth-of-type(1) .content-skills li:nth-child(4)").text("Développement Software")
-    $(".cd-container .cd-timeline-block:nth-of-type(1) .content-skills li:nth-child(5)").text("Programmation Orientée Objet")
+    // Projects
+    $(".projects-container .projects-container h2:nth-of-type(1)").text("Projets")
+    $(".projects-container .projects-container.cd-container .cd-timeline-block:nth-of-type(1) h3:nth-of-type(1)").text("Master: Projet de Recherche")
+    $(".projects-container .cd-container .cd-timeline-block:nth-of-type(2) h3:nth-of-type(1)").text("Master: Projet de Recherche en Groupe")
+    $(".projects-container .cd-container .cd-timeline-block:nth-of-type(3) h3:nth-of-type(1)").text("Licence: Projet de Recherche")
 
-    $(".cd-container .cd-timeline-block:nth-of-type(2) .content-skills li:nth-child(1)").text("Engagement Public")
-    $(".cd-container .cd-timeline-block:nth-of-type(2) .content-skills li:nth-child(2)").text("Développement de Tech. Médicale")
-    $(".cd-container .cd-timeline-block:nth-of-type(2) .content-skills li:nth-child(3)").text("Développement d'App. Mobile")
-    $(".cd-container .cd-timeline-block:nth-of-type(2) .content-skills li:nth-child(4)").text("Design de Wireframe")
+    $(".projects-container .cd-container .cd-timeline-block:nth-of-type(1) .timeline-content-info:nth-of-type(1) .timeline-content-info-date").text("Oct. 2021 - Juin 2022")
+    $(".projects-container .cd-container .cd-timeline-block:nth-of-type(2) .timeline-content-info:nth-of-type(1) .timeline-content-info-date").text("Oct. 2021 - Juin 2022")
+    $(".projects-container .cd-container .cd-timeline-block:nth-of-type(3) .timeline-content-info:nth-of-type(1) .timeline-content-info-date").text("Oct. 2020 - Juin 2021")
 
-    $(".cd-container .cd-timeline-block:nth-of-type(3) .content-skills li:nth-child(1)").text("Python")
-    $(".cd-container .cd-timeline-block:nth-of-type(3) .content-skills li:nth-child(2)").text("Apprentissage Automatique")
-    $(".cd-container .cd-timeline-block:nth-of-type(3) .content-skills li:nth-child(3)").text("Jupyter Notebooks")
-    $(".cd-container .cd-timeline-block:nth-of-type(3) .content-skills li:nth-child(4)").text("PyTorch")
-    $(".cd-container .cd-timeline-block:nth-of-type(3) .content-skills li:nth-child(5)").text("NumPy")
-    $(".cd-container .cd-timeline-block:nth-of-type(3) .content-skills li:nth-child(6)").text("CNNs")
-    $(".cd-container .cd-timeline-block:nth-of-type(3) .content-skills li:nth-child(7)").text("U-Nets")
-    $(".cd-container .cd-timeline-block:nth-of-type(3) .content-skills li:nth-child(8)").text("Auto-encodeurs")
+    $(".projects-container .cd-container .cd-timeline-block:nth-of-type(1) .job-description-list li:nth-child(1)").text("Adaptation du logiciel open-source MRtrix3 software package pour le traitement de données issues de l'IRM de diffusion, qui ne pouvaient pas toutes être traitées avec la version ancienne de l'algorithme MSMT-CSD. Cet algorithme est souvant utilisé pour le traçage des fibres dans la matière blanche dans le cerveau.")
+    $(".projects-container .cd-container .cd-timeline-block:nth-of-type(1) .job-description-list li:nth-child(2)").text("Thèse de master: Analyse de data issue de l'IRM de diffusion par encodage de diffusion arbitraire”.")
+
+    $(".projects-container .cd-container .cd-timeline-block:nth-of-type(2) .job-description-list li:nth-child(1)").text("Investigation des services et technologies disponibles dans le monde pour la préconception, en utilisant le modèle 5D du développement de technologies médicales.")
+    $(".projects-container .cd-container .cd-timeline-block:nth-of-type(2) .job-description-list li:nth-child(2)").text("Campagne publicitaire et activités d'engagement public pour la collecte de données concernant les connaissances du public sur la préconception, ainsi que pour établir les fonctionnalités les plus désirables et nécessaires dans une application mobile pour les soins préconception. Création du wireframe d'une application mobile idéale pour adresser le manque de services disponible dans le Royaume-Uni.")
+    $(".projects-container .cd-container .cd-timeline-block:nth-of-type(2) .job-description-list li:nth-child(3)").text("Thèse de master de groupe: “PrecTech: Une étude globale des directives et services disponibles pour les soins préconception, et proposition d'une application mobile personnalisée pour les soins préconception“.")
+    $(".projects-container .cd-container .cd-timeline-block:nth-of-type(2) .job-description-list li:nth-child(4)").text("La publication d'un article scientifique est actuellement en cours.")
+
+    $(".projects-container .cd-container .cd-timeline-block:nth-of-type(3) .job-description-list li:nth-child(1)").text("Développement d'un nouvel outil pour résoudre un problème majeur dans la communauté de la neuroimagerie, avec des experts en apprentissage profond et en imagerie médicale.")
+    $(".projects-container .cd-container .cd-timeline-block:nth-of-type(3) .job-description-list li:nth-child(2)").text("Développement d'un réseau de neurones supervisé pour la détection et correction d'artefacts dans des images cérébrales pédiatriques issues de l'IRM de diffusion. Développement d'un réseau auto-supervisé capable de détecter et classer les artefacts.")
+    $(".projects-container .cd-container .cd-timeline-block:nth-of-type(3) .job-description-list li:nth-child(3)").text("Thèse de licence: “Apprentissage profond auto-supervisé pour la détection d'artefacts dans l'IRM cérébrale pédiatrique“.")
+
+    $(".projects-container .cd-container .cd-timeline-block:nth-of-type(1) .content-skills li:nth-child(1)").text("C++")
+    $(".projects-container .cd-container .cd-timeline-block:nth-of-type(1) .content-skills li:nth-child(2)").text("Shell")
+    $(".projects-container .cd-container .cd-timeline-block:nth-of-type(1) .content-skills li:nth-child(3)").text("MATLAB")
+    $(".projects-container .cd-container .cd-timeline-block:nth-of-type(1) .content-skills li:nth-child(4)").text("Développement Software")
+    $(".projects-container .cd-container .cd-timeline-block:nth-of-type(1) .content-skills li:nth-child(5)").text("Programmation Orientée Objet")
+
+    $(".projects-container .cd-container .cd-timeline-block:nth-of-type(2) .content-skills li:nth-child(1)").text("Engagement Public")
+    $(".projects-container .cd-container .cd-timeline-block:nth-of-type(2) .content-skills li:nth-child(2)").text("Développement de Tech. Médicale")
+    $(".projects-container .cd-container .cd-timeline-block:nth-of-type(2) .content-skills li:nth-child(3)").text("Développement d'App. Mobile")
+    $(".projects-container .cd-container .cd-timeline-block:nth-of-type(2) .content-skills li:nth-child(4)").text("Design de Wireframe")
+
+    $(".projects-container .cd-container .cd-timeline-block:nth-of-type(3) .content-skills li:nth-child(1)").text("Python")
+    $(".projects-container .cd-container .cd-timeline-block:nth-of-type(3) .content-skills li:nth-child(2)").text("Apprentissage Automatique")
+    $(".projects-container .cd-container .cd-timeline-block:nth-of-type(3) .content-skills li:nth-child(3)").text("Jupyter Notebooks") 
+    $(".projects-container .cd-container .cd-timeline-block:nth-of-type(3) .content-skills li:nth-child(4)").text("PyTorch")
+    $(".projects-container .cd-container .cd-timeline-block:nth-of-type(3) .content-skills li:nth-child(5)").text("NumPy")
+    $(".projects-container .cd-container .cd-timeline-block:nth-of-type(3) .content-skills li:nth-child(6)").text("CNNs")
+    $(".projects-container .cd-container .cd-timeline-block:nth-of-type(3) .content-skills li:nth-child(7)").text("U-Nets")
+    $(".projects-container .cd-container .cd-timeline-block:nth-of-type(3) .content-skills li:nth-child(8)").text("Auto-encodeurs")
 
     // EDUCATION
     $(".education-container h2:nth-child(1)").text("Éducation")
@@ -272,80 +303,100 @@ $('.js-scroll-trigger').click(function(){
 });
 
 // ANIMATION SCRIPTS
-// EXPERIENCE ANIMATIONS
+// EXPERIENCE/PROJECTS ANIMATIONS
 const observer = new IntersectionObserver(entries => {
   entries.forEach(entry => {
     if(entry.isIntersecting){
-      document.querySelectorAll(".animated")[0].classList.add("fadeIn")
-      document.querySelectorAll(".animated")[1].classList.add("fadeInUp")
+      $(".experience-container .animated")[0].classList.add("fadeIn")
+      $(".experience-container .animated")[1].classList.add("fadeInUp")
     }
   })
 })
-observer.observe(document.querySelector(".cd-container"))
+observer.observe($("#experience")[0])
 
 const observer2 = new IntersectionObserver(entries => {
   entries.forEach(entry => {
     if(entry.isIntersecting){
-      document.querySelectorAll(".animated")[2].classList.add("fadeInUp")
+      $(".experience-container .animated")[2].classList.add("fadeInUp")
     }
   })
 })
-observer2.observe(document.querySelector("#exp-block-2"))
+observer2.observe($("#experience .cd-timeline-block")[0])
+
 
 const observer3 = new IntersectionObserver(entries => {
   entries.forEach(entry => {
     if(entry.isIntersecting){
-      document.querySelectorAll(".animated")[3].classList.add("fadeInUp")
+      $(".projects-container .animated")[0].classList.add("fadeIn")
+      $(".projects-container .animated")[1].classList.add("fadeInUp")
     }
   })
 })
-observer3.observe(document.querySelector("#exp-block-3"))
+observer3.observe($("#projects")[0])
 
-// EDUCATION ANIMATIONS
 const observer4 = new IntersectionObserver(entries => {
   entries.forEach(entry => {
     if(entry.isIntersecting){
-      document.querySelectorAll(".animated")[4].classList.add("fadeInFast")
-      document.querySelectorAll(".animated")[5].classList.add("fadeInUpFast")
-      document.querySelectorAll(".animated")[6].classList.add("fadeInUpFast")
+      $("#exp-block-2")[0].classList.add("fadeInUp")
     }
   })
 })
-observer4.observe(document.querySelector("#education"))
+observer4.observe(document.querySelector("#exp-block-2"))
 
-// SKILLS ANIMATIONS
 const observer5 = new IntersectionObserver(entries => {
   entries.forEach(entry => {
     if(entry.isIntersecting){
-      document.querySelectorAll(".animated")[7].classList.add("fadeInFast")
-      document.querySelectorAll(".animated")[8].classList.add("fadeInUpFast")
+      $("#exp-block-3")[0].classList.add("fadeInUp")
     }
   })
 })
-observer5.observe(document.querySelector("#skills"))
+observer5.observe(document.querySelector("#exp-block-3"))
 
-// LANGUAGES ANIMATIONS
+// EDUCATION ANIMATIONS
 const observer6 = new IntersectionObserver(entries => {
   entries.forEach(entry => {
     if(entry.isIntersecting){
-      document.querySelectorAll(".animated")[9].classList.add("fadeInFast")
-      document.querySelectorAll(".animated")[10].classList.add("fadeInLeftFast")
-      document.querySelectorAll(".animated")[11].classList.add("fadeInLeftFast")
-      document.querySelectorAll(".animated")[12].classList.add("fadeInRightFast")
-      document.querySelectorAll(".animated")[13].classList.add("fadeInRightFast")
+      $(".education-container .animated")[0].classList.add("fadeIn")
+      $(".education-container .animated")[1].classList.add("fadeInUp")
+      $(".education-container .animated")[2].classList.add("fadeInUp")
     }
   })
 })
-observer6.observe(document.querySelector("#languages"))
+observer6.observe(document.querySelector("#education"))
 
-// CONTACT-ME ANIMATIONS
+// SKILLS ANIMATIONS
 const observer7 = new IntersectionObserver(entries => {
   entries.forEach(entry => {
     if(entry.isIntersecting){
-      document.querySelectorAll(".animated")[14].classList.add("fadeInFast")
-      document.querySelectorAll(".animated")[15].classList.add("fadeInFast")
-      document.querySelectorAll(".animated")[16].classList.add("fadeInUpFast")
+      $(".skills-container .animated")[0].classList.add("fadeInFast")
+      $(".skills-container .animated")[1].classList.add("fadeInUpFast")
     }
   })
 })
-observer7.observe(document.querySelector("#contact-me"))
+observer7.observe(document.querySelector("#skills"))
+
+// LANGUAGES ANIMATIONS
+const observer8 = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+    if(entry.isIntersecting){
+      $(".languages-container .animated")[0].classList.add("fadeInFast")
+      $(".languages-container .animated")[1].classList.add("fadeInLeftFast")
+      $(".languages-container .animated")[2].classList.add("fadeInLeftFast")
+      $(".languages-container .animated")[3].classList.add("fadeInRightFast")
+      $(".languages-container .animated")[4].classList.add("fadeInRightFast")
+    }
+  })
+})
+observer8.observe(document.querySelector("#languages"))
+
+// CONTACT-ME ANIMATIONS
+const observer9 = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+    if(entry.isIntersecting){
+      $(".contact-container .animated")[0].classList.add("fadeInFast")
+      $(".contact-container .animated")[1].classList.add("fadeInFast")
+      $(".contact-container .animated")[2].classList.add("fadeInUpFast")
+    }
+  })
+})
+observer9.observe(document.querySelector("#contact-me"))

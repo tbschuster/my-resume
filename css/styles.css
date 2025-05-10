@@ -186,10 +186,16 @@ i {
 }
 
 
-/* =========== EXPERIENCE CLASSES =========== */
+/* =========== EXPERIENCE/PROJECTS CLASSES =========== */
+
+.projects-container{
+  margin-top: 10vh;
+  scroll-margin-top: 5vh;
+}
 
 .experience-container{
-  margin-top: 5vh;
+  margin-top: 10vh;
+  scroll-margin-top: 5vh;
 }
 
 .cd-container {
@@ -204,11 +210,6 @@ i {
   content: '';
   display: table;
   clear: both;
-}
-
-.cd-timeline-block {
-  position: relative;
-  margin: 2em 0;
 }
 
 .cd-timeline-block {
@@ -325,6 +326,7 @@ i {
 /* =========== EDUCATION CLASSES =========== */
 .education-container {
   padding: 130px 0 20px;
+  scroll-margin-top: 5vh;
 }
 
 .education-details >li{
@@ -377,6 +379,7 @@ i {
 /* =========== SKILLS CLASSES =========== */
 .skills-container {
   padding: 100px 0 0;
+  scroll-margin-top: 5vh;
 }
 
 .skills-container >.row{
@@ -387,6 +390,7 @@ i {
 
 .languages-container{
   padding: 100px 0 0;
+  scroll-margin-top: 5vh;
 }
 
 /* =========== CONTACT ME CLASSES =========== */
@@ -394,6 +398,7 @@ i {
 .contact-container{
   padding: 130px 0 0;
   font-size: 1rem;
+  scroll-margin-top: 5vh;
 }
 
 .btn{
@@ -443,15 +448,15 @@ i {
   font-size: 5vh;
 }
 
-/* =========== EXPERIENCE IDS =========== */
-#cd-timeline {
+/* =========== PROJECTS IDS =========== */
+.cd-timeline {
   position: relative;
   padding: 2em 0;
   margin-top: 2em;
   margin-bottom: 2em;
 }
 
-#cd-timeline::before {
+.cd-timeline::before {
   content:  '';
   position: absolute;
   top: 0;
@@ -621,11 +626,11 @@ i {
 }
 
 @media only screen and (min-width: 1170px) {
-  #cd-timeline {
+  .cd-timeline {
     margin-top: 3em;
     margin-bottom: 3em;
   }
-  #cd-timeline::before {
+  .cd-timeline::before {
     left: 50%;
     margin-left: -2px;
   }
