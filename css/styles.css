@@ -81,7 +81,6 @@ a.fr::before {
 /* ================================= MAIN ================================= */
 
 body {
-
   margin: 0;
   text-align: center;
   font-family: 'SourceSansPro', sans-serif;
@@ -323,6 +322,9 @@ i {
   flex-grow: 1;
 }
 
+.self-employed-project-title {
+  font-weight: 500;
+}
 /* =========== EDUCATION CLASSES =========== */
 .education-container {
   padding: 130px 0 20px;
@@ -331,6 +333,8 @@ i {
 
 .education-details >li{
   text-align: left;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 
 .education-row {
